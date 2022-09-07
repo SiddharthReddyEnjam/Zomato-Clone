@@ -1,0 +1,182 @@
+/* Navbar */
+
+.section-nav {
+  width: 115rem;
+  margin: 1rem auto;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar-logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.div-logo {
+  width: 12rem;
+}
+
+.logo {
+  width: 100%;
+}
+
+.form {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.btn-loc {
+  background-color: inherit;
+  border: none;
+  margin: 0 5px;
+  font-size: 2rem;
+}
+
+.location-icon {
+  width: 2rem;
+  color: rgb(241, 75, 42);
+}
+
+.input {
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.btn-search {
+  border: none;
+  background-color: inherit;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-icon {
+  /* margin-right: 1rem; */
+}
+
+.vertical {
+  color: #aaa;
+  font-size: 3rem;
+  display: block;
+}
+
+.search-icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.input-search {
+  width: 43rem;
+}
+
+/* Profile */
+.nav-profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.5rem;
+}
+
+.div-profile-img {
+  width: 4rem;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.user {
+  text-transform: uppercase;
+}
+
+.btn-down {
+  background-color: inherit;
+  border: none;
+}
+
+.down-arrow {
+  font-size: 2rem;
+}
+
+/* Menu-route */
+.map-data {
+  margin-top: 3rem;
+  color: #777;
+  font-size: 1.2rem;
+}
+
+.current {
+  color: #ccc;
+}
+
+/* Navshift */
+
+.navshift {
+  display: flex;
+  align-items: center;
+  padding: 0 20rem;
+  gap: 4rem;
+  font-size: 2rem;
+  box-shadow: 0 0.3px 0 #ccc;
+}
+
+.shift-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 2rem 2rem 1rem;
+}
+
+.shift-type:hover {
+  cursor: pointer;
+}
+
+.shift-img-div {
+  width: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-nav {
+}
+
+.shift-img {
+  width: 100%;
+  padding: 1.5rem;
+  object-fit: contain;
+}
+
+.delivery-color {
+  background-color: rgb(251, 228, 185);
+}
+
+.dining-color,
+.night-color {
+  background-color: rgb(248, 248, 248);
+}
+
+.type-name {
+  font-weight: 500;
+  color: #555;
+}
+
+.shift-active {
+  border-bottom: 3px solid rgb(239, 79, 95);
+  color: rgb(239, 79, 95);
+}
+
+.shift-active .type-name {
+  color: rgb(239, 79, 95);
+}
